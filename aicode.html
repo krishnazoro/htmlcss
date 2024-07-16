@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<body>
+
+<img id="myImage" onclick="changeImage()" src="https://media.licdn.com/dms/image/D5603AQFeHx3RkslX2A/profile-displayphoto-shrink_200_200/0/1689550239637?e=2147483647&v=beta&t=N2NNl_kuquja5jE_RlsnihgXF808pFpBcgrcVPCJXuI" width="100" height="180">
+
+<p>Click the image to change to another image, and click the same image again to revert to the previous one.</p>
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  console.log(image.src);
+  if (image.src.match("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZ3biH4XHKwby-NQmgW0wYff8PgzrnKp1bg&s")) {
+    image.src = "https://media.licdn.com/dms/image/D5603AQFeHx3RkslX2A/profile-displayphoto-shrink_200_200/0/1689550239637?e=2147483647&v=beta&t=N2NNl_kuquja5jE_RlsnihgXF808pFpBcgrcVPCJXuI";
+  } else {
+    image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZ3biH4XHKwby-NQmgW0wYff8PgzrnKp1bg&s";
+  }
+}
+</script>
+
+</body>
+

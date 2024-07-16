@@ -56,4 +56,47 @@ You learn
 ## Full stack
  1. The combination of front end and back end.
 
+ # How the web works
+ 1. For example: http://www.codewithmosh.com
+ 2. The address are stored in the browser address bar is called URL (uniform resource locator).
+ 3. resource  is locate on the internet.
+ 4. resource can be
+  - webpage (also can Html document)
+  - Images
+  - Video
+  - Fonts
+ 5. when you type the url in browser and hit enter there are two pieces works.
+ - Browser also called as client
+ - Server
+ 6. Client request a service and server provide the service.
+ 7. HTTP is used to talk client to server and this not a programming language plain text communicating on internet.
+ 8. We know the HTTPS which is HTTP + encryption so the client and server messagesare encrypted.
+ 9. Example of HTTP message with this messages,the browser tells server what look'ing for "Get /index.html HTTP/1.1".
+ 10. It says get file or page name of index.html by using HTTP version 1.1
+ 11. The client send a message to server and the server will figure it out
+ and send back the message to the client .
+ 12. The client send a message to the server is called HTTP request and the server send message to the client HTTP client.
+
+ # Html basics
+ 1. The body structure of the html.
+ ```
+ <!DOCTYPE html> 
+ <html>
+ <head>
+ <title> My first program </title>
+ </head>
+ <body>
+    <p>This is my first program</p>
+    <img src = " ">
+</body>
+</head>
+```
+6. Html is start at  `<!DOCTYPE html>` it defines the version of the html.
+7. `<html>`
+8. `<head>` in the head we can use a another tag  called `<title>` in this title tag we can give title of the of the  webpage page it will dispaly at left side upper corner and then close the head `<head>` tag .
+9. we can add a body `<body>` tag after the head tag we can give pragraph `<p>` tag  and add link tag, img, video, audio etc..
+10. After completation of the body content close the body `<body>` tag.
+11. After completation program close the `<html>`.
+
+
 
