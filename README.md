@@ -97,6 +97,44 @@ You learn
 9. we can add a body `<body>` tag after the head tag we can give pragraph `<p>` tag  and add link tag, img, video, audio etc..
 10. After completation of the body content close the body `<body>` tag.
 11. After completation program close the `<html>`.
+12. If we need a gallery image, audio, video in vs code store the image in a path. 
 
+# Css basics
+1. In css we can make a sharp image as softer and the make it circle.
+2. We can make a font style and bold.
+3. If there are two `<p>` and `<p>` we want make one paragraph style we can use class which parargraph you need.
+for example
+```
+<!DOCTYPE html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First web page</title>
+    <style>
+        img {
+            width: 200px;
+            border-radius:80%;
+        }
+        p{
+            font-style:italic;
+           
+            font-size: larger;       
+        }  
+        .krishna{
+            font-weight:bolder ;
+        } 
+    </style>
 
+    
+</head>
+<body>
+    <p>Music Director</p>
+    
+<img src ="rahman wallpaper.jpg">
+<p class = "krishna"> Marakuma Nenjam </p>
+</body>
+```
+
+# Formate code
+1. Format code is used to for make code in a proper format.
