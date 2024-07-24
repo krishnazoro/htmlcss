@@ -1,5 +1,7 @@
 # Web development fundamentals
 
+## Introduction
+
 You learn
 
 1. The languages and tools of web development.
@@ -13,7 +15,7 @@ You learn
 5. Bascis html and css.
 6. Validating webpages.
 
-# Languages amd tools of web development
+## Languages amd tools of web development
 
 1. Web development has two parts
 
@@ -53,6 +55,7 @@ You learn
 - React js (library)
 
 - Angular js (Framework)
+
 - Vue js (Framework)
 
 ### Library
@@ -88,7 +91,7 @@ collaborative with others
 
 1.  The combination of front end and back end.
 
-# How the web works
+## How the web works
 
 1.  For example: http://www.codewithmosh.com
 
@@ -120,7 +123,7 @@ language plain text communicating on internet.
     and send back the message to the client .
 12. The client send a message to the server is called HTTP request and the server send message to the client HTTP client.
 
-# Html basics
+## Html basics
 
 1.  The body structure of the html.
 
@@ -146,7 +149,7 @@ language plain text communicating on internet.
 7. After completation program close the `<html>`.
 8. If we need a gallery image, audio, video in vs code store the image in a path.
 
-# Css basics
+## Css basics
 
 1. In css we can make a sharp image as softer and the make it circle.
 
@@ -186,13 +189,14 @@ language plain text communicating on internet.
     </body>
     ```
 
-# Format code
+## Format code
 
 1. Format code is used to for make code in a proper format.
 
 ---
+# Html basics
 
-# Head section
+## Head section
 
 1. The head section of th e html page is
 
@@ -219,3 +223,30 @@ language plain text communicating on internet.
 5. `<content="width=device-width>`it display the webpage width of the webpage i mean the webpage is fit for the screen.
 
 6. `initial-scale=1.0`it is a natural size or initial zoom 1.0 means the natural fit for dispaly.
+
+## Text
+ 
+1. Text part is mostly used in body tag in paragraph`<p>`in the paragraph tag the stress emphasis `<em>`is used to give more important for the text which is inside the `<em>`.
+
+2. And `<i>` is used for italic and bold `<b>` is used for bold a content.
+
+3. The text it can store the content in different style and in proper formate 
+
+## Entities
+
+1. Entities is used to create a special notation start with a & and end with ;.
+
+2. it is used in paragraph like an example.
+ ```
+ <p> this is a &lt; html &gt;
+ o/p:
+ <html>
+ 
+ ```
+ 3. In this we can use 
+ - &copy,euro,dollar,pound,copy,reg,amp,quote,apos.
+ 
+ - `&nbsp;` - it is called as non-braking space. 
+
+
+

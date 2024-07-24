@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body
+    style="background-image: url('https://wallpaperset.com/w/full/2/7/5/261869.jpg'); background-attachment: fixed; background-size: 1535px 750px; background-repeat: no-repeat;">
+    <div
+        style="background-color: white; margin-top: 200px; margin-left: auto; margin-right: auto; width: 400px; height: 150px; background-position: center; background-attachment: fixed; ">
+
+        <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace;">Login</h1>
+
+        <form action="/action_page.php">
+            <div style="text-align: center;">
+
+                <table style="text-align: center; margin: auto;">
+                    <tr>
+                        <td width="100px">
+                            <label style="text-align: left; font-family: 'Courier New', Courier, monospace;" for="idemail">Email :</label>
+                        </td>
+                        <td width="180px">
+                            <input width="240px" type="email" id="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="font-family: 'Courier New', Courier, monospace;" for="pwd">Password:</label>
+                        </td>
+                        <td>
+                            
+                            <input type="password" id="pwd" name="pwd" minlength="8">
+                            <i class="far fa-eye fa-eye-slash" id="togglePassword"
+                                style="margin-left: -30px; cursor: pointer; font-family: 'Courier New', Courier, monospace;"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+        </form>
+    </div>
+
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#pwd');
+
+        togglePassword.addEventListener('click', function (e) {
+            // toggle the type attribute
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            // toggle the eye slash icon
+            this.classList.toggle('fa-eye-slash');
+        });
+    </script>
+
+</body>
+
+</html>
