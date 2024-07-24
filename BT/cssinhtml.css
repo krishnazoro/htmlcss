@@ -1,0 +1,62 @@
+/* There are three way to add css in html  */
+
+/* External css: They add a css in external way by create a file by using .css and a file by using link. */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+/* Internal css: It use style tag and the element styled by one by one */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+} 
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+/* Inline css: it style the element at it's location*/
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+
+
+
+
