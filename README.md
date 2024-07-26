@@ -248,5 +248,25 @@ language plain text communicating on internet.
  
  - `&nbsp;` - it is called as non-braking space. 
 
+ ## Hypertext link
+ 
+ 1. we can use a link in website is known as hypertext link `<a>` anker tag has been used and href is used as attribute.
+ 
+ 2. syntax of the hypertext link
+
+ ```
+ <a hypertext="link">name for the link</a>
+ 
+ ```
+ 3. By using hypertext link we can send a mail and jump key.
+
+ ## Images
+
+ 1. We can create a image by using website or gallery, The element of the image is `<img>` tag and the attribute is src and alt.
+
+ 2. In image we can stye the image like we can change height, width, size. 
+
+
+
 
 
