@@ -262,9 +262,197 @@ language plain text communicating on internet.
 
  ## Images
 
- 1. We can create a image by using website or gallery, The element of the image is `<img>` tag and the attribute is src and alt.
+ 1. We can create a image by using website or local, the element of the image is `<img>` tag and the attribute is src and alt.
 
  2. In image we can stye the image like we can change height, width, size. 
+
+ ## Audio
+ 
+ 1. we can create a audio by using website or local file, the element of the audio is `<audio>`tag and the attribute is src and controls. 
+
+ 2. In audio we can stye the image like we can change height, width, size. 
+
+## Video
+
+ 1. we can create a video by using website or local file, the element of the video is `<video>`tag and the attribute is src and controls. 
+
+ 2. In video we can stye the image like we can change height, width, size. 
+
+ ## List
+
+ 1. List is used to list something record of short pieces.
+
+ 2. There are two types in html
+
+ - Unordered list
+ 
+ - Ordered list
+
+ ### Unordered list
+ 
+ 1. In unordered list just use bullet points,star etc... like many symbols for the list
+
+ ```
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unordered list</title>
+    <style>
+    ul{
+        list-style-type: square;
+    }
+</style>
+</head>
+
+<body>
+    <ul>
+        <li>Front end</li>
+        <li>Back end</li>
+        <li>Front end
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Js</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+```
+
+ ### Ordered list
+ 
+ 1. In ordered list use a numbers,alphabets,roman letters etc.. for the list.
+
+ ```
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unordered list</title>
+    <style>
+        ol {
+            list-style-type: upper-roman;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>Front end</li>
+        <li>Back end</li>
+        <li>Front end
+            <ol>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Js</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+
+</html>
+
+```
+### Description list
+
+1. We can give a description for the list and we can style.
+
+```<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description html</title>
+    <style>
+        dl {
+            font-weight: bolder;
+            font-size: x-large;
+        }
+
+        dd {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <dl>Black coffee</dl>
+    <dd>Look like a black</dd>
+    <dl>Cold Coffee </dl>
+    <dd>The coffee is cold</dd>
+</body>
+
+</html>
+
+```
+
+## Table
+
+1. Table is used to tabulate something.
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+       table,td,th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Menu</th>
+            </tr>
+           
+            <tr>
+                <th>Food</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <td>Idli</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Dosa</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>2200</th>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+
+</html>
+
+```
 
 
 
