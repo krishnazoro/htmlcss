@@ -469,12 +469,50 @@ language plain text communicating on internet.
 
 1. It is a attribute.
 
-2. We can give specific style for by using the class.
+2. We can give a name for class
+
+3. By using the name we can give specific style for by using the class.
 
 ## Span 
 
 1. It is a inline element.
 
 2. We can give a style by useing this.
+
+## Semantic
+
+1. Semantic means meaningful element.
+
+2. Like an example
+
+- Body tag
+
+- Head tag
+
+- Article tag
+
+- Form tag
+
+- Table tag
+
+etc..
+
+3. We using article tag in the sematic
+
+4. Article element is a semantic element. 
+
+5. An independent, self contained content
+
+- Forum post
+
+- Review
+
+- Comments
+
+- Porduct cards
+
+
+
+
 
 
