@@ -363,7 +363,7 @@ language plain text communicating on internet.
 ```
 ### Description list
 
-1. We can give a description for the list and we can style.
+1. We can give a description for the list and we can style it.
 
 ```<!DOCTYPE html>
 <html lang="en">
@@ -397,7 +397,7 @@ language plain text communicating on internet.
 
 ## Table
 
-1. Table is used to tabulate something.
+1. Table is used to arrange the data in rows and colums
 
 ```
 
@@ -414,6 +414,10 @@ language plain text communicating on internet.
         border-collapse: collapse;
         padding: 5px;
         }
+         tr:nth-child(even){     
+        background-color: cadetblue;
+         }
+         <!-- nth child means we can give style for n no.of row in the table, we need to mention the odd or even or row number -->
     </style>
 </head>
 
@@ -421,9 +425,9 @@ language plain text communicating on internet.
     <table>
         <thead>
             <tr>
-                <th colspan="2">Menu</th>
+                <th colspan="2">Menu</th> 
             </tr>
-           
+           <!-- colspan is used to a  word is use n no.of row ,we want mention  the number. EG: colspan = "2"  -->
             <tr>
                 <th>Food</th>
                 <th>Cost</th>
@@ -453,8 +457,24 @@ language plain text communicating on internet.
 </html>
 
 ```
+## Container
 
+1. `<div>` is used in the container it is a block-level-element.
 
+2. It is start at new line.
 
+3. We can give a style for the element.
+
+## Class
+
+1. It is a attribute.
+
+2. We can give specific style for by using the class.
+
+## Span 
+
+1. It is a inline element.
+
+2. We can give a style by useing this.
 
 
