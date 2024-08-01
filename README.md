@@ -511,6 +511,79 @@ etc..
 
 - Porduct cards
 
+## Structure of the webpage
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header>
+    <nav>
+    <ul></ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    </nav>
+    </header>
+    <main>
+    <article>
+        <section></section>
+    </article>
+    </main>
+    <aside>
+        <p></p>
+    </aside>
+    <footer>
+    <nav>
+        <ul></ul>
+        <li></li>
+        <li></li>
+    </nav>
+    </footer>
+    
+</body>
+</html>
+```
+### Header
+
+1. Header is used for introduction to show the topic's 
+
+### Navigation bar
+
+1. Navigation bar presented in the top of the website beolw the title bar.
+
+2. In navigation bar has menue or other topics
+
+### Ul
+
+1. Ul means unordered list it has only symbols like dot,square,circle.
+
+### Main 
+
+1. It contain main content of the webpage.
+
+### Article 
+
+1. It can represent the content like article.
+
+### section 
+
+1. A group of content in a seperate section.
+
+### Aside 
+
+1. a group content seperated and will be part of side.
+
+### Footer
+
+1. It is used to represent any at botom of the webpage.
+
+
 
 
 
