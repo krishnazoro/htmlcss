@@ -70,3 +70,71 @@ p{
 - Attribute
 
 
+### Type
+
+1. We can style an element by type.
+
+2. like an example
+
+```
+
+body{
+    color: blue;
+    
+}
+
+```
+
+### Id
+
+1. we can style an element by using id.
+
+2. We use a # symbol for tag Id.
+
+3. We can use id name in program for a style.
+
+4. example #idname.
+
+5. In id we can give name for at one time, we can't repeat it. 
+
+```
+
+#product{
+
+ color: green
+
+}
+
+```
+
+### Class 
+
+1. we can style an element by using class.
+
+2. We use a . symbol for tag class.
+
+3. We can use class name in program for a style.
+
+4. example .className.
+
+5. In class we can repeat name many times.
+
+```
+.product{
+    
+    color: red;
+}
+
+```
+
+### Attribute
+
+1. We can style an element by using attribute.
+
+2. Example 
+
+```
+a[href = "link"]target
+
+
+
