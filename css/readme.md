@@ -1,5 +1,7 @@
 # Css basics
 
+## Providing css
+
 1. There are three types of styles
 
 - Inline style
@@ -9,7 +11,7 @@
 - External style
 
 
-## Inline style
+### Inline style
 
 1. Inline style means applies style directly applies to the element in the program.
 
@@ -20,7 +22,7 @@
 
 ```
 
-## Internal style
+### Internal style
 
 1. Internal style means applies  style  to the element by class or open style tag in the head tag and mention element and applies the styles.
 
@@ -38,13 +40,33 @@ p{
 
 ```
 
-## External style
+### External style
 
 1. External style means applies style to the element by external file.
 
 2. The current file and external file is linked together by hypertext link at header. 
 
+```
+
 <head>
 <a href="link">
+
+```
+
+## Normalize css
+
+1.  Normalize.css is a customisable CSS file that helps browsers render all elements more consistently and in line with modern standards.
+
+## Selectors 
+
+1. Selectors is used to style the element by using  
+
+- Type
+
+- Id
+
+- Class
+
+- Attribute
 
 
