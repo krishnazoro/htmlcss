@@ -134,7 +134,48 @@ body{
 2. Example 
 
 ```
-a[href = "link"]target
+a[href = "link"][target_blank]{
 
+}
 
+```
 
+## Relational selector
+
+1. In relational operator means in the operator will use >, +, ~ at relational selector
+
+- Greaterthan symbol(>) selector
+
+1. This symbol highlight or color the paragraph by using this but it just we can color the 1st paragraph in the section.
+
+```
+css
+
+# idname > p{
+    color:red;
+}
+```
+
+- Additional symbol(+)
+
+1. This symbol highlight or color the  paragraph after the end of section but only the first paragraph.
+
+```
+css
+
+# idname + p{
+    color:red;
+}
+```
+
+- Tick symbol(~)
+
+1. This symnol highlight or color the paragraph after the end of the section.
+
+```
+css
+
+# idname ~ p{
+    color:red;
+}
+```
