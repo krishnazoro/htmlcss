@@ -179,3 +179,226 @@ css
     color:red;
 }
 ```
+## Pseudo-class selector
+
+1. Pseudo class selector is used to style part a part of web apge based on certain condition.
+
+2. USe single colon : for style particular thing in web page.
+
+2. Here there are certain condition for style the webpage.
+
+- Hover
+
+- Focus
+
+- nth-child()
+
+- first child() and last child()
+
+### Hover
+
+1. When we keep cursor on content it has some changes like changing font color, background color etc..
+
+2. like example:
+
+```
+
+p:hover{
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+```
+### Focus
+
+1. When you click the content it has some chages like font color,background color etc...
+
+2. like example
+
+```
+
+p:focus{
+
+    color: darksalmon;
+    border-color: blue;
+    background-color: yellow;
+    outline: none;
+
+}
+
+```
+
+### nth-child()
+
+1. In web page they have n no.of content like table cells, paragraph we can style it by using this selector we can choose it by even nunbers and odd numbers.
+
+2. like example
+
+```
+
+ article > p:nth-child(odd){
+
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+   
+}
+
+```
+
+### First child and last child
+
+1.  In web page they have content like table cells, paragraph we can style it by using this selector at first and last.
+
+2. like example
+
+```
+
+ article > p:first-child{
+
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+   
+}
+
+article > p:last-child{
+
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+   
+}
+
+```
+### first-of-type
+
+1.This element is  style the first content of the webpage.
+
+2. Like example
+
+```
+
+ article > :first-of-type{
+
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+   
+}
+
+```
+### Last-of-type
+
+1. This element is style the last content of the webpage.
+
+```
+article > :last-of-type{
+
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+   
+}
+
+```
+
+## pseudo element selector
+
+1. Pseudo element is used to style the first letter.
+
+2. In pseudo element double colon :: has been used.
+
+- First-letter
+
+- First line
+
+### First letter
+
+1. It style only first letter in paragraph.
+
+2. like example.
+
+```
+
+p::first-letter{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+```
+
+### First-line
+
+1. It style only the first line.
+
+2. Like example
+
+```
+
+p::first-letter{
+
+    font-weight: bold;
+    
+}
+
+```
+### Selection
+
+1. When you select the content we can change the by using the selection.
+
+2. Like example
+
+```
+
+::selection{
+    background-color: darkgreen;
+    
+}
+
+```
+
+### Before
+
+1. When you want to add a any symbols before content use this before element .
+
+2. like example
+
+```
+p::before{
+    content: "...";
+    dispaly: block;
+<!-- Block means block level starts at new line -->
+}
+
+```
+
+### After
+
+1. When you want to add a any symbols after content use this after element .
+
+2. Like example.
+
+```
+p::after{
+    content: "...";
+    dispaly: block;
+
+    <!-- Block means block level starts at new line -->
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
