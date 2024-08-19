@@ -1,0 +1,18 @@
+h1{
+    color: green ;
+}
+
+.superman{
+    color: cadetblue;
+}
+
+#super{
+    color: coral;
+}
+
+.superman#super{
+    color: blue;
+}
+
+
+
