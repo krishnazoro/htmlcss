@@ -1,0 +1,10 @@
+p{
+    color: yellow;
+    border: solid blueviolet;
+    font-size: larger;
+}
+
+strong{
+    color: initial;
+    border: inherit;
+}

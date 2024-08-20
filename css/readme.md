@@ -456,5 +456,28 @@ h1{
 
 ```
 
+## Inheritance
 
+1. If there is a sentence and apply any attribute in middle of the sentence and if i apply a style to the paragraph it will not apply to the attribute.
+
+2. Example
+
+```
+
+<p>Lorem ipsum <strong>dolor</strong>  sit amet.</p>
+
+<css>
+
+p{
+    color: yellow;
+    border: solid blueviolet;
+    font-size: larger;
+}
+
+strong{
+    color: initial;
+    border: inherit;
+}
+
+```
 
