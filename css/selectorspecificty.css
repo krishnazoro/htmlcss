@@ -1,5 +1,5 @@
 h1{
-    color: green ;
+    color: green !important;
 }
 
 .superman{
@@ -12,6 +12,10 @@ h1{
 
 .superman#super{
     color: blue;
+}
+
+.feature{
+    color: darkturquoise;
 }
 
 

@@ -390,15 +390,71 @@ p::after{
 
 ```
 
+## Selector specificty
 
+1. If i repeating style in different methods it apply consider the weight of the method
 
+2. They are 3 types of selector specificty
 
+- Id selector
 
+- class and atribute selector
 
+- Element selector 
 
+### Id selector
 
+1. It has high weightage in styling in coding and it uses id tag for styling.
 
+2. Example
 
+```
+
+#super{
+    color: coral;
+}
+
+```
+
+### Class and atribute selector
+
+1. It has less weightage then id selector it has second preference and it uses class and atribute for styling.
+
+2. Like example
+
+```
+
+.superman{
+    color: cadetblue;
+}
+
+```
+
+### Element selector
+
+1. It has less weightage then id and class and it has third preference for coding and it uses element for styling.
+
+2. Example
+
+```
+
+h1{
+    color: green ;
+}
+
+```
+
+### ! Important
+
+It is a attribute it gives first preference in styling.
+
+```
+
+h1{
+    color: green !important;
+}
+
+```
 
 
 
