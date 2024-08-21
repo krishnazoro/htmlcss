@@ -479,5 +479,18 @@ strong{
     border: inherit;
 }
 
-```
+``` 
 
+## Color
+
+1. The color is used to decrote a words and background and highlight.
+
+2. There are four types
+
+- Named color
+
+- Rbg
+
+- Hsl
+
+- Hexadecimel
