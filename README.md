@@ -13,6 +13,7 @@ You learn
 4. Inspect network traffic using Devtools.
 
 5. Bascis html and css.
+
 6. Validating webpages.
 
 ## Languages amd tools of web development
