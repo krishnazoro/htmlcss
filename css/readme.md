@@ -10,7 +10,6 @@
 
 - External style
 
-
 ### Inline style
 
 1. Inline style means applies style directly applies to the element in the program.
@@ -24,7 +23,7 @@
 
 ### Internal style
 
-1. Internal style means applies  style  to the element by class or open style tag in the head tag and mention element and applies the styles.
+1. Internal style means applies style to the element by class or open style tag in the head tag and mention element and applies the styles.
 
 2. Example
 
@@ -44,7 +43,7 @@ p{
 
 1. External style means applies style to the element by external file.
 
-2. The current file and external file is linked together by hypertext link at header. 
+2. The current file and external file is linked together by hypertext link at header.
 
 ```
 
@@ -57,9 +56,9 @@ p{
 
 1.  Normalize.css is a customisable CSS file that helps browsers render all elements more consistently and in line with modern standards.
 
-## Selectors 
+## Selectors
 
-1. Selectors is used to style the element by using  
+1. Selectors is used to style the element by using
 
 - Type
 
@@ -68,7 +67,6 @@ p{
 - Class
 
 - Attribute
-
 
 ### Type
 
@@ -80,7 +78,7 @@ p{
 
 body{
     color: blue;
-    
+
 }
 
 ```
@@ -95,7 +93,7 @@ body{
 
 4. example #idname.
 
-5. In id we can give name for at one time, we can't repeat it. 
+5. In id we can give name for at one time, we can't repeat it.
 
 ```
 
@@ -107,7 +105,7 @@ body{
 
 ```
 
-### Class 
+### Class
 
 1. we can style an element by using class.
 
@@ -121,7 +119,7 @@ body{
 
 ```
 .product{
-    
+
     color: red;
 }
 
@@ -131,7 +129,7 @@ body{
 
 1. We can style an element by using attribute.
 
-2. Example 
+2. Example
 
 ```
 a[href = "link"][target_blank]{
@@ -158,7 +156,7 @@ css
 
 - Additional symbol(+)
 
-1. This symbol highlight or color the  paragraph after the end of section but only the first paragraph.
+1. This symbol highlight or color the paragraph after the end of section but only the first paragraph.
 
 ```
 css
@@ -179,13 +177,14 @@ css
     color:red;
 }
 ```
+
 ## Pseudo-class selector
 
 1. Pseudo class selector is used to style part a part of web apge based on certain condition.
 
 2. USe single colon : for style particular thing in web page.
 
-2. Here there are certain condition for style the webpage.
+3. Here there are certain condition for style the webpage.
 
 - Hover
 
@@ -209,6 +208,7 @@ p:hover{
 }
 
 ```
+
 ### Focus
 
 1. When you click the content it has some chages like font color,background color etc...
@@ -241,7 +241,7 @@ p:focus{
     font-size: 16px;
     color: black;
     font-style: italic;
-   
+
 }
 
 ```
@@ -250,7 +250,7 @@ p:focus{
 
 1.  In web page they have content like table cells, paragraph we can style it by using this selector at first and last.
 
-2. like example
+2.  like example
 
 ```
 
@@ -259,7 +259,7 @@ p:focus{
     font-size: 16px;
     color: black;
     font-style: italic;
-   
+
 }
 
 article > p:last-child{
@@ -267,13 +267,14 @@ article > p:last-child{
     font-size: 16px;
     color: black;
     font-style: italic;
-   
+
 }
 
 ```
+
 ### first-of-type
 
-1.This element is  style the first content of the webpage.
+1.This element is style the first content of the webpage.
 
 2. Like example
 
@@ -284,10 +285,11 @@ article > p:last-child{
     font-size: 16px;
     color: black;
     font-style: italic;
-   
+
 }
 
 ```
+
 ### Last-of-type
 
 1. This element is style the last content of the webpage.
@@ -298,7 +300,7 @@ article > :last-of-type{
     font-size: 16px;
     color: black;
     font-style: italic;
-   
+
 }
 
 ```
@@ -340,10 +342,11 @@ p::first-letter{
 p::first-letter{
 
     font-weight: bold;
-    
+
 }
 
 ```
+
 ### Selection
 
 1. When you select the content we can change the by using the selection.
@@ -354,7 +357,7 @@ p::first-letter{
 
 ::selection{
     background-color: darkgreen;
-    
+
 }
 
 ```
@@ -400,7 +403,7 @@ p::after{
 
 - class and atribute selector
 
-- Element selector 
+- Element selector
 
 ### Id selector
 
@@ -479,7 +482,7 @@ strong{
     border: inherit;
 }
 
-``` 
+```
 
 ## Color
 
@@ -494,3 +497,99 @@ strong{
 - Hsl
 
 - Hexadecimel
+
+### RGB
+
+1. The rgb is abbrevation of red,green,blue.
+
+2. The rgb has some value that is start at zero to 255.
+
+3. For example: "130,205,124" each number reperesent the the value of color.
+
+4. And then there will be a Rgba, "a" defines alpha and this value can be zero and one.
+
+5. Zero defines transparent and one defines opacity.
+
+```
+
+css
+Rgb(130,205,124)
+
+or
+
+Rgba(130,205,124)
+
+```
+
+### Hexadecimel
+
+1. It contain values (0-9,a-f) it does not has transparent.
+
+2. For example
+```
+css
+ #e6cd10
+
+```
+
+### HSL
+
+1. HSL is a abreviation of hue saturation lightness.
+
+2. Even it has three value start from zero to hundred, the first value start at degree and then the two more value is use percentage.
+
+3. Like example:Hsl(25deg,45%,87%)
+
+4. H defines the value of the color and s defines saturation of the color and finally l defines lightness of the color.
+
+5. Even it has Hsla "a" defines alpha the value alpha is decimel number zero and one.
+
+6. Zero for transparent and one for opacity.
+
+7. Like example:
+
+```
+
+css
+ Hsl(25deg,45%,87%,)
+
+ or
+
+ Hsla(130,205,124,0.6)
+
+```
+## Gradients
+
+1. Gradients we can beautiful transition with two or more color it is techincally image.
+
+2. We can use at background 
+
+```
+
+css
+background: linear gradient(white,yellow)
+
+```
+
+## Border
+
+1. Border is used to decorate the box at the end corners.
+
+2. There are many types dotted,dashed,solid etc..
+
+3. We can decorate it we can give border at any sides.
+
+```
+
+css
+border: 20px;
+
+```
+
+
+
+
+
+
+
+
