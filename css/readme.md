@@ -180,7 +180,7 @@ css
 
 ## Pseudo-class selector
 
-1. Pseudo class selector is used to style part a part of web apge based on certain condition.
+1. Pseudo class selector is used to style part a part of web page based on certain condition.
 
 2. USe single colon : for style particular thing in web page.
 
@@ -585,6 +585,12 @@ css
 border: 20px;
 
 ```
+
+## Box model
+
+1. The box model is more important topic Whenever give the content it was placed at invisible at content area.
+
+2. And the content area was sorrounded by padding and it covered by border and it is covered by margin.
 
 
 

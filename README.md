@@ -482,7 +482,7 @@ language plain text communicating on internet.
 
 ## Semantic
 
-1. Semantic means meaningful element.
+1. Semantic means element which has meaningful words.
 
 2. Like an example
 
