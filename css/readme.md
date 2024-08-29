@@ -585,12 +585,18 @@ css
 border: 20px;
 
 ```
+---
+# Layout
 
 ## Box model
 
 1. The box model is more important topic Whenever give the content it was placed at invisible at content area.
 
 2. And the content area was sorrounded by padding and it covered by border and it is covered by margin.
+
+## Sizing elements
+
+1. Sizing elements in web development is like deciding how big or small you want the boxes, pictures, or other parts of your webpage to be
 
 
 
