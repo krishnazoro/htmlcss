@@ -1,0 +1,40 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: cornsilk;
+    border-radius: 20px;
+     overflow:hidden ;
+
+}
+
+       /* or */
+
+.box{
+    height: 150px
+    width: 150px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    overflow:scroll;
+    
+}
+
+        /* or */
+
+.box{
+     height: 150px;
+     width: 150px;
+     background-color: cornsilk;
+     border-radius: 20px;
+     overflow:auto ;
+        
+}
+      /* or */
+
+ .box{
+        height: 150px;
+        width: 150px;
+        background-color: cornsilk;
+        border-radius: 20px;
+         overflow:auto hidden ;
+    
+    }

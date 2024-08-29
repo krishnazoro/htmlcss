@@ -598,7 +598,67 @@ border: 20px;
 
 1. Sizing elements in web development is like deciding how big or small you want the boxes, pictures, or other parts of your webpage to be
 
+## Overflow
 
+1. If a box has 150px height and width the content has more than a box capacity then the content will overflow.
+
+2. There are some solution 
+
+- Hidden
+
+- scroll
+
+- auto
+
+- auto hidden
+
+### Hidden 
+
+1. If the content is overflow in the box if use hidden property the exrtra content will hidden.
+
+```
+
+css
+  overflow:hidden ;
+
+ ```
+
+ ### Scroll
+
+ 1. If the content is overflow in the box if use scroll property the exrtra content will come to the box we can see it buy scrolling.
+
+ ```
+
+css
+  overflow: scroll;
+
+```
+
+### Auto
+
+1. If the content is overflow in the box if use auto property the exrtra content will come to the box we can see it buy scrolling.
+
+```
+
+css
+  overflow: auto;
+
+```
+
+### Auto hidden
+
+1.  If the content is overflow in the box if use auto hidden property the exrtra content will hidden.
+
+```
+
+css
+  overflow: auto hidden;
+
+```
+
+
+
+ 
 
 
 
