@@ -1,0 +1,12 @@
+body{
+    /* margin: 30px; */
+}
+.box{
+    height: 100rem;
+    width: 50em;
+    background-color: chartreuse;
+    border-top: 5px solid gold;
+    text-align: center;
+    
+
+}

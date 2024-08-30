@@ -656,7 +656,49 @@ css
 
 ```
 
+## Measurement units
 
+1. Measurement units used measure the pictures,boxes,margin and border etc...
+
+2. There are two types of measurement units 
+
+- Absolute
+
+- Relative
+
+### Absolute
+
+1. It is fixed measurement and it cannot changable it is fixed at any screen size.
+
+2. There are many absolute measurements units
+
+- Pixel(px)
+
+- Point(pt)
+
+- Inch(in)
+
+- Centimeter(cm)
+
+- Millimeter(mm)
+
+### Relative
+
+1. It is not fixed type it changable like screen size.
+
+2. There are many relative measurements units.
+
+- Percentage(%)
+
+- Relative to the viewport (vw)
+
+- Relative to the viewport (vh)
+
+- relative to the font size (em)
+
+- relative to the font size (rem)
+
+ 
 
  
 
