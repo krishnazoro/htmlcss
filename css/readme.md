@@ -698,6 +698,32 @@ css
 
 - relative to the font size (rem)
 
+## position
+
+1. Positioning is used to position the container.
+
+2. The "rem" measurement units is used for position the container.
+
+3. There are three position
+
+- Relative
+
+- Absolute
+
+- Fixed
+
+### Realative
+
+1. Relative to the element's normal position.
+
+### Absolute
+
+1. Relative to the parent.
+
+### Fixed 
+
+1. Relative to the viewport.
+
  
 
  
