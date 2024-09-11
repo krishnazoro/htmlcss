@@ -724,7 +724,24 @@ css
 
 1. Relative to the viewport.
 
- 
+## Floating element
+
+1. A floating element in web design is a way to position an element to the left or right of its container, allowing other content to wrap around it.
+
+2. This is done using the CSS float property
+
+3. Example program in css
+
+```
+
+float: left;
+clear: both;
+
+```
+
+
+
+
 
  
 

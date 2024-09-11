@@ -1,0 +1,25 @@
+.airbender{
+    width: 7rem;
+    height: 7rem;
+    background-color: darkorchid;
+    float: left;
+    margin-right: 1rem;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.tweet {
+    border: 3px solid grey;
+}
+
+
+
+
+
+
+
+
+
