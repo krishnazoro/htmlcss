@@ -739,7 +739,71 @@ clear: both;
 
 ```
 
+## Flex box
 
+1. Flex means it arrange the container in one direction like in horizontal or vertical direction.
+
+2. We can control the direction by flex-direction attribute.
+
+3. To align item we need to learn about axes flex.
+
+4. There are two types of alignment
+
+- Main(primary)
+
+1. In row main will be horizontal axes.
+
+2. In coloumn main will be vertical axes.
+
+
+- Cross(secondary)
+
+1. In row main will be vertical axes.
+
+2. In coloumn main will be horizontal axes.
+
+
+### Aligning items
+
+1. There 2 types of align items
+
+- Justify-content(along the main axis)
+
+- align item (along the cross axis)
+
+- align content 
+
+2. Using for spacing and align perfectly.
+
+### Align wrap
+
+1. In Wrap the items will keep original size and extra item cannot be fixed it keep the item perfectly.
+
+### Align self 
+
+1. It align the container to start part or end part.
+
+### Sizing items 
+
+1. There are four types in sizzing items.
+
+- Flex-basis(the initial size of a flex item)
+
+- Flex-grow(the growth factor)
+
+- Flex-shrink(the shrink factor)
+
+- Flex (it is a shortend method)
+
+
+6. Like example css
+
+```
+css
+
+Display: flex;
+
+```                                                         
 
 
 
