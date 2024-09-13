@@ -803,10 +803,58 @@ css
 
 Display: flex;
 
-```                                                         
+```      
+
+## Grid
+
+1. It arrange the content in both rows and coloumns most it was in tables, pictures.
+
+2. Like example
+
+```
+
+Css
+
+Display: grid;
+
+Grid-template: repeat(4,100px) / (3,100px)
 
 
+```
 
+3. In grid template repeat(4,100px) for rows and (3,100px) for column.
+
+### Alignment items
+
+1. In grid aligning items was used there are two types.
+
+- justify item
+
+- align item
+
+### Gap
+
+1. The gap three types 
+
+- Row gap
+
+1. This gap is used in row.
+
+- Column gap
+
+1. This gap is used in column.
+
+- Gap
+
+1. This is a short hand method this applicable for rows and column.
+
+### Placing items
+
+- Grid row
+
+- Grid columns
+
+- Grid rows
  
 
 
