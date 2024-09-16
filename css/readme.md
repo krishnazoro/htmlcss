@@ -854,7 +854,25 @@ Grid-template: repeat(4,100px) / (3,100px)
 
 - Grid columns
 
-- Grid rows
+- Grid area
+
+## Hiding element
+
+1. The hidding element means hide the visiblity of the content.
+
+2. There are two attribite are used in hiding element 
+
+- display: none;
+
+- visiblity: hidden;
+
+## Media queries
+
+1. Media queries there are many media's like moblie media, desktop media,tab media.
+
+2. The website is changes like what the display size it is called as responsive web sites.
+
+
  
 
 
