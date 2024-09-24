@@ -873,6 +873,51 @@ Grid-template: repeat(4,100px) / (3,100px)
 2. The website is changes like what the display size it is called as responsive web sites.
 
 
+## Styling fonts
+
+1. The fonts is used to style the content like paragraph.
+
+2. There are three types of fonts
+
+## Serif
+
+1. Serif has sharp edges in the first letter 
+
+- Georgia
+
+- Times new roman
+
+2. Like example: Georgia, Times new roman, serif;
+
+### San-serif
+
+1. San serif has no sharp edges
+
+- Avenir
+
+- Arial
+
+- Futura
+
+2. Avenir, Arial, san-serif; 
+
+### Monospace
+
+1. Monospace it has one space at letter and width of ever letters is exactly same.
+
+- Consoles
+
+- Courier
+
+- Ubuntu
+
+2. Like example: Consoles, Courier, Monospace;
+
+
+
+
+
+
  
 
 
