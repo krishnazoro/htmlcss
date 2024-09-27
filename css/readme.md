@@ -913,6 +913,24 @@ Grid-template: repeat(4,100px) / (3,100px)
 
 2. Like example: Consoles, Courier, Monospace;
 
+## System Font stack
+
+1. The advantage of the system font stack.
+
+- Can boost performance
+
+- Native look
+
+- No flash of unstyled text (FOUT)
+
+- Overall: better experience
+
+2. Disadvantage of the system font stack
+
+- Default font vary 
+
+
+
 
 
 
