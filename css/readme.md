@@ -929,7 +929,23 @@ Grid-template: repeat(4,100px) / (3,100px)
 
 - Default font vary 
 
+## Vertical spacing
 
+1. The vertical spacing also called as vertical rthym.
+
+2. There are two properities
+
+- Margin
+
+- line-height
+
+### Margin
+
+1. Margin is used at top, left, right, bottom gap between the sentence.
+
+### Line-height
+
+1. Line height is used at gap between the first sentence and second sentence.
 
 
 
