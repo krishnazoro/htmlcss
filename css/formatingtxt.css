@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+
+    text-indent: 1rem;
+
+    text-decoration: underline;
+
+    text-transform: capitalize;
+
+    white-space: nowrap;
+
+    columns: 3;
+
+    direction: ltr;
+}

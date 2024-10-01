@@ -947,11 +947,63 @@ Grid-template: repeat(4,100px) / (3,100px)
 
 1. Line height is used at gap between the first sentence and second sentence.
 
+2. Don't use px in line height use rem.
 
+## Horizontal spacing
 
+1. There are three properities in the horizontal spacing
 
+- Letter spacing
 
+- Word spacing
 
+- Width
+
+### Letter spacing
+
+1. Letter spacing is defined space between each characters in the word.
+
+2. Use px in the letter spacing don't use rem.
+
+### Word spacing
+
+1. word spacing is defined as space between set of character in the sentence.
+
+### Width 
+
+1. Width is defined as relative to the zeros (space between each words to another words).
+
+## Formating text
+
+There are few properities in the formating text
+
+- Text align 
+
+1. most left side in text align
+
+- Text indent: 
+
+1. A space will appear in the first paragraph first sentence 
+
+- Text decoration
+
+1. we can use underline or line through in the paragraph
+
+- Text transform
+
+1. we can change font style in the the transformation
+
+- White space
+
+In White space there is nowrap will be used there is no next line, it finish the sentence in the single line.
+
+- column
+
+we can seperate the column 
+
+- Direction
+
+we can change the direction like right to left etc...
  
 
 
