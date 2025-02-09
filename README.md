@@ -12,7 +12,7 @@ You learn
 
 4. Inspect network traffic using Devtools.
 
-5. Bascis html and css.
+5. Bascis of html and css.
 
 6. Validating webpages.
 
@@ -109,8 +109,9 @@ collaborative with others
 5.  when you type the url in browser and hit enter there are two pieces works.
 
 
-- Browser also called as client
+- Browser also called as client 
 - Server
+
 
 
 6.  Client request a service and server provide the service.
