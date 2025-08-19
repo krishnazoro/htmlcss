@@ -16,7 +16,7 @@ You learn
 
 6. Validating webpages.
 
-## Languages amd tools of web development
+## Languages and tools of web development
 
 1. Web development has two parts
 
@@ -33,25 +33,26 @@ You learn
 - Html(Hyper text markup language)
 
 - Css(cascading stylesheets)
+
 - Javascript
 
 ### Html
 
-1.  It has set of content and image, symbols and some buttons like bell, likes, comment, dislike for a website.
+1. It has set of content and image, symbols and some buttons like bell, likes, comment, dislike for a website.
 
 ### CSS
 
-1.  It allign the content, images, symbols and buttons in a formate.
+1. It allign the content, images, symbols and buttons in a formate.
 
-2.  It can change the font style, image shape and change the color of the font.
+2. It can change the font style, image shape and change the color of the font.
 
 ### Javascript
 
-1.  It is a behavior language if uou touch the buttons like bell button it make some sound and if touch the likes button it make that any colors
+1. It is a behavior language if uou touch the buttons like bell button it make some sound and if touch the likes button it make that any colors
 
 ### Framework
 
-1.  Frameworks or library come with a lot of code that can reuse in a websites so that can get jobs done faster.
+1. Frameworks or library come with a lot of code that can reuse in a websites so that can get jobs done faster.
 
 - React js (library)
 
@@ -61,21 +62,21 @@ You learn
 
 ### Library
 
-1.  Library does not contain everything like framework.
+1. Library does not contain everything like framework.
 
-2.  If we need anything we can create a library.
+2. If we need anything we can create a library.
     eg: React js (it most popular languge used)
 
 ### Version control system
 
-1.  we use version control system to keep track on our project history work 
-collaborative with others
+1. we use version control system to keep track on our project history work collaborative with others
 
 2.  They are many version of the version control system
 
 - Git (70% of the company using git)
 
 - Subversion
+
 - Mercurial
 
 ## Back end
@@ -90,44 +91,49 @@ collaborative with others
 
 ## Full stack
 
-1.  The combination of front end and back end.
+1. The combination of front end and back end.
 
 ## How the web works
 
-1.  For example: http://www.codewithmosh.com
+1. For example: http://www.codewithmosh.com
 
-2.  The address are stored in the browser address bar is called URL (uniform resource locator).
-3.  resource is locate on the internet.
-4.  resource can be
+2. The address are stored in the browser address bar is called URL (uniform resource locator).
 
-- webpage (also can Html document)
+3. Resource is locate on the internet.
+
+4. Resource can be
+
+- Webpage (also can Html document)
 
 - Images
+
 - Video
+
 - Fonts
 
-5.  when you type the url in browser and hit enter there are two pieces works.
+5. when you type the url in browser and hit enter there are two pieces works.
 
+- The browser and also called as client 
 
-- Browser also called as client 
 - Server
 
+6. Client request a service and server provide the service.
 
+7. HTTP is used to talk client to server and this not a programming language plain text communicating on internet.
 
-6.  Client request a service and server provide the service.
+8. We know the HTTPS which is HTTP + encryption so the client and server messagesare encrypted.
 
-7.  HTTP is used to talk client to server and this not a programming 
-language plain text communicating on internet.
-8.  We know the HTTPS which is HTTP + encryption so the client and server messagesare encrypted.
-9.  Example of HTTP message with this messages,the browser tells server what look'ing for "Get /index.html HTTP/1.1".
-10. It says get file or page name of index.html by using HTTP version 1.1
-11. The client send a message to server and the server will figure it out
-    and send back the message to the client .
+9. Example of HTTP message with this messages,the browser tells server what look'ing for "Get /index.html HTTP/1.1".
+
+10. It says get file or page name of index.html by using HTTP version 1.1.
+
+11. The client send a message to server and the server will figure it out and send back the message to the client .
+
 12. The client send a message to the server is called HTTP request and the server send message to the client HTTP client.
 
 ## Html basics
 
-1.  The body structure of the html.
+1. The body structure of the html.
 
     ```
     <!DOCTYPE html>
@@ -144,7 +150,7 @@ language plain text communicating on internet.
 
 2. Html is start at `<!DOCTYPE html>` it defines the version of the html.
 
-3. `<html>`is used for because of html program without this tag the program will run.
+3. `<html>`is used for because of html program without this tag the program will not run.
 4. `<head>` in the head we can use a another tag called `<title>` in this title tag we can give title of the of the webpage page it will dispaly at left side upper corner and then close the head `<head>` tag .
 5. we can add a body `<body>` tag after the head tag we can give pragraph `<p>` tag and add link tag, img, video, audio etc..
 6. After completation of the body content close the body `<body>` tag.
@@ -156,6 +162,7 @@ language plain text communicating on internet.
 1. In css we can make a sharp image as softer and the make it circle.
 
 2. We can make a font style and bold.
+
 3. If there are two `<p>` and `<p>` we want make one paragraph style we can use class which parargraph you need.
    for example
 
@@ -191,11 +198,37 @@ language plain text communicating on internet.
     </body>
     ```
 
-## Format code
+## Formatting code
 
-1. Format code is used to for make code in a proper format.
+1. Formatting code means code in a proper format.
+
+2. Example for formatting code.
+
+  ```
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+   </head>
+   <body>
+
+   </body>
+   </html>
+
+  ```
+
+ ## Validaring web page
+
+ 1. Validating web page means if we sucessfully created the webpage we need to upload the web page in the internet.
+
+ 2. we need to check there is any error or problem in the web page. 
+
+ 3. There are many platform to check those problem but i prefore validation.w3.org . 
 
 ---
+
 # Html basics
 
 ## Head section
@@ -214,7 +247,7 @@ language plain text communicating on internet.
 
    </body>
    </html>
-   ```
+    ```
 
 2. `<!DOCTYPE html>`is used to identify the version type and it give the template for the html.
 
@@ -278,7 +311,7 @@ language plain text communicating on internet.
 
  1. we can create a video by using website or local file, the element of the video is `<video>`tag and the attribute is src and controls. 
 
- 2. In video we can stye the image like we can change height, width, size. 
+ 2. In video we can style the image like we can change height, width, size. 
 
  ## List
 
@@ -584,6 +617,8 @@ etc..
 ### Footer
 
 1. It is used to represent any at botom of the webpage.
+
+2. 
 
 
 
