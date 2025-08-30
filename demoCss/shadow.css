@@ -1,0 +1,12 @@
+.box{
+    width : 400px;
+    height: 400px;
+    background: lightblue;
+    box-shadow:10px 10px 5px lightslategray
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;  
+    
+}

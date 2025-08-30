@@ -216,7 +216,7 @@ You learn
 
    </body>
    </html>
-
+  
   ```
 
  ## Validaring web page
@@ -269,7 +269,7 @@ You learn
 
 ## Entities
 
-1. Entities is used to create a special notation start with a & and end with ;.
+1. Entities is used to create a special notation start with a &; and end with &;.
 
 2. it is used in paragraph like an example.
  ```
@@ -294,6 +294,8 @@ You learn
  
  ```
  3. By using hypertext link we can send a mail and jump key.
+
+ 4. By using jump we can go top but there is no key for go bottom
 
  ## Images
 
@@ -618,7 +620,373 @@ etc..
 
 1. It is used to represent any at botom of the webpage.
 
-2. 
+---
+
+# CSS Basics
+
+## providing CSS
+
+1. CSS that is used to a make a beautiful the webpage and we can give different sentence and each for words for different styles.
+
+2. There are three styles
+
+- Embedded styling sheets
+
+- Inline
+
+- External
+
+## Basic selector
+
+1. The basic selectors
+
+- Type
+
+- ID
+
+- Class
+
+- Attribute
+
+2. Example by attribute
+
+```
+                                   HTML sheet
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selector</title>
+    <link rel="stylesheet" href="./basicSelector.css">
+</head>
+
+<body>
+    <a href="https://google.com">google</a>
+</body>
+
+</html>
+```
+
+```
+                            Embedding style CSS
+
+a[href]{
+    color: green
+}
+```
+
+## Relation selector
+
+1. In relation selector we use styles using symbols like
+
+- Greater than symbol (>) - In a section or article tag there two or more paragraph by using this we can color first one paragraph in the section
+
+- Plus symbol (+) - After a section or aricle there are two or more paragraph we can style the first paragraph after that tag. 
+
+- Tilde symbol (~) - It select all the paragrph after the tag elements. 
+
+2. For example 
+
+- Wrote the program in HTML sheet
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relation Selector</title>
+    <link rel="stylesheet" href="./relationSelector.css">
+</head>
+
+<body>
+    <article id="products">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <section>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+    </article>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+
+</html>
+
+```
+
+- Wrote the in Embedding style sheet
+
+```
+                              Greater than  
+
+#products > p{
+    color: red;
+}
+```
+
+```
+                                  Plus  
+
+#products + p{
+    color: red;
+}
+```
+
+```
+                                 Tidile  
+
+#products ~ p{
+    color: red;
+}
+```
+
+## Pseudo class selectors
+
+1. A CSS pseudo-class is a keyword that can be added to a selector, to define a style for a special state of an element.
+
+2. Some common use for pseudo-classes:
+
+- Style an element when a user moves the mouse over it.
+
+- Style visited and unvisited links differently.
+
+- Style an element when it gets focus.
+
+- Style valid/invalid/required/optional form elements.
+
+- Style an element that is the first child of its parent.
+
+3. Pseudo-classes are always denoted by a single colon (:) followed by the pseudo-class name:
+
+4. For example
+
+```
+a:hover{
+    color:blue
+}
+```
+
+5. For HTML links, it is common to use the following pseudo-classes:
+
+- :link - Styles unvisited links
+
+- :visited - Styles visited links
+
+- :hover - Styles an link on mouse over
+
+- :active - Styles an activated link
+
+- :first child - Styles the article and section content
+
+- :first-of-type - Styles the article and section first       content
+
+- :last-of-type - Styles the article and section last      content
+
+6. For example
+
+```
+
+article p:first-of-type {
+    color: red;
+} 
+
+article p:last-of-type {
+     font-weight: bold;
+}
+
+ul li:nth-child(even){
+    color: palevioletred;
+}
+
+/* a:visited{
+    color: green; 
+}*/
+
+a:hover{
+    color:red;
+
+}
+
+a:active{
+    color:blueviolet
+}
+
+a:focus{
+    background-color: yellow;
+}
+
+```
+
+## Pseudo elemnt selectors
+
+1. A CSS pseudo-element is a keyword that can be added to a selector, to style a specific part of an element.
+
+2. Some common use for pseudo-elements:
+
+- Style the first letter or first line, of an element
+
+- Insert content before or after an element
+
+- Style the markers of list items
+
+- Style the user-selected portion of an element
+
+- Style the viewbox behind a dialog box
+
+3. Pseudo-elements are denoted by a double colon (::) followed by the pseudo-element name:
+
+- ::first-letter - style the first letter
+
+- ::first-line - style the first line
+
+- ::selector - style the content which content has been selected like drag.
+
+- ::before - style the content before
+
+- ::after - style the content after
+
+4. For example
+
+```
+
+p::first-letter{
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+p::first-line{
+  color: brown;
+}
+
+::selection{
+   
+    color:bisque
+}
+
+::before{
+    content:"...";
+    display: block;
+}
+
+::after{
+    content:"...";
+   
+}
+
+```
+
+## Selectors specficity
+
+1. In CSS there are four tag 
+
+- Id tag
+
+- Class tag
+
+- Atribute tag
+
+- Element tag
+
+2. If i use all the tag in one content you know which tag gives more important.
+
+3. consider the triangle the first importance for id tag and for class and atribute tag and finally for element tag.
+
+4. If i use all the tag in one content it gives important for id tag but i need to give important for element tag you need to need to type important aside the tag.
+
+5. For example
+
+```
+h1{
+    color: yellow !important
+}
+```
+
+## Inheritance
+
+1. There is a style sentenced we can remove the style on any words that's called an inheritance.
+
+## Gradient
+
+1. A style we can mix two or more colors that makes a image stylish.
+
+2. Make this steps is easy use gradient generator.
+
+3. There are two types of gradients 
+
+- Linear-gradient
+
+- Radial-gradient
+
+4. For example
+
+```
+.box{
+    width: 300px;
+    height:300px;
+    background:linear-gradient(red,yellow,blue);
+} 
+
+.box{
+    width: 800px;
+    height:900px;
+    background:radial-gradient(red,yellow,blue);
+}
+```
+
+## Border
+
+1. We can style the border using give different measurement and make radial shape and colors.
+
+2. we can style the border measurement called trbl means top,right, bottom and left.
+
+3. For example
+
+```
+.box{
+    width: 400px;
+    height:400px;
+    background: burlywood;
+    border:  dashed black 10px;
+    border-radius: 100px;
+    border-width: 10px 20px 30px 40px;//trbl
+}
+```
+
+## Shadow
+
+1. Shadow can style a image, box and text it makes that 3d view.
+
+2. we can make a different color and gives different smoothnes.
+
+3. For example
+
+```
+.box{
+    width : 400px;
+    height: 400px;
+    background: lightblue;
+    box-shadow:10px 10px 5px lightslategray
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;  
+    
+}
+```
+
+
+
+
+
+
 
 
 
