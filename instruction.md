@@ -13,3 +13,14 @@
 7. to create a id "p#name".  <!.....p for paragraph and # for Id.>
 
 8. To create a form use this shrtct  "form>label*5".
+
+9. ALT + arrow up to move a sentence or word up.
+
+10. ALT + arrow down to move a sentence or word down.
+
+11. ALT + Shift + up to copy a sentence or word to up.
+
+12. ALT + Shift + down to copy a sentence or word to down.
+
+13. If you enter a word or symbol cntrl + space for choose a tag related that.
+

@@ -1,28 +1,28 @@
-article p:first-of-type {
+/* article p:first-of-type {
     color: red;
-} 
+}  */
 
-article p:last-of-type {
+ /* article p:last-of-type {
      font-weight: bold;
-}
+} */
 
-ul li:nth-child(even){
+/* ul li:nth-child(even){
     color: palevioletred;
-}
+} */
 
 /* a:visited{
     color: green; 
-}*/
+} */
 
-a:hover{
+/* a:hover{
     color:red;
 
-}
+} */
 
-a:active{
+/* a:active{
     color:blueviolet
-}
+} */
 
 a:focus{
     background-color: yellow;
-}
+} 

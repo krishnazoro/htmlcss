@@ -1,23 +1,23 @@
-p::first-letter{
+/* p::first-letter{
     font-size: 120%;
     font-weight: bolder;
-}
+}  */
 
-p::first-line{
+/* p::first-line{
   color: brown;
-}
+} */
 
-::selection{
+/* ::selection{
    
-    color:bisque
-}
+    color:yellow
+} */
 
-::before{
+/* ::before{
     content:"...";
     display: block;
-}
+} */
 
-::after{
+/* ::after{
     content:"...";
    
-}
+}  */

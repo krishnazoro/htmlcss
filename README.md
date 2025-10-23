@@ -1,3 +1,5 @@
+# Part - 1        
+
 # Web development fundamentals
 
 ## Introduction
@@ -514,7 +516,7 @@ You learn
 
 1. It is a inline element.
 
-2. We can give a style by useing this.
+2. We can give a style by using this.
 
 ## Semantic
 
@@ -965,7 +967,15 @@ h1{
 
 2. we can make a different color and gives different smoothnes.
 
-3. For example
+3. shadow should represent as number measure of px and there three numbers should should for shadows to represent right or left, top or bottom and finally smoothnes.
+
+3. First number for right or left for shadow positive number represent a shadow to right side and negative number for left  side.
+
+5. Second number for top or bottom positive number represent a shadow to bottom and negative number for top.
+
+6. Third number for softening the shadow if the value increase the shadow will be soften and the value decrease the shadow is harder.
+
+7. For example
 
 ```
 .box{
@@ -981,6 +991,64 @@ h1{
     
 }
 ```
+8. In .box the box-shadow:10px 10px 5px the first number 10px is positive number so the shadow will represent in right side and second number 10px is positive shadow represent bottom and the third numbers is 5px the value is lower so the shadw will be harder. 
+
+---
+
+# Part - 2
+
+# Layout
+
+## Box model
+
+1. In CSS, the box model used whent talking about web desining and layout.
+
+2. The CSS box model is essentially a box that wraps around every HTML element.
+
+3. Every box consists of four parts: content, padding, borders and margins.
+
+4. Consider the box, content is wrapped by padding and padding is wrapped by border and wrapped by margin.
+
+5. Explanation of the different parts (from innermost part to outermost part) they are
+
+6. Content - The content of the box, where text and images appear.
+
+7. Padding - Clears an area around the content. The padding is transparent.
+
+8. Border - A border that goes around the padding and content.
+
+9. Margin - Clears an area outside the border. The margin is transparent.
+
+10. The initial margin is 16, and the border, padding is 0. We can set border, padding and margin manually in CSS.
+
+```
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
+
+```
+
+## Sizing element
+
+
+
+
+
+
+
+
+
+
+
 
 
 
