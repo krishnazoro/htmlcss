@@ -1,0 +1,24 @@
+*{ box-sizing: border-box;
+}
+
+
+body{
+     margin: 50px;   /* you can use body tag or box class.*/
+}
+
+
+.box::before{
+    content: 'Hello';
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    background-color: aquamarine;
+    border: solid black;
+    display: inline-block;
+
+}   
+   

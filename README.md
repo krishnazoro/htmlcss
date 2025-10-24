@@ -1039,6 +1039,24 @@ h1{
 
 ## Sizing element
 
+1. Sizing element means controls height and width with padding and border.
+
+2. If you set **box-sizing: border-box;** on an element, the padding and border are included in the calculation of the width and height.
+
+3. A universel selector can cover an other element bu it can't pseudo element.
+
+4. Inline element can't cover sizing element so we can use **Display: inline-block;**.
+
+5. In box sizing if you use **box-sizing: border-box;** and height, width, padding and border and it only depends on **height and width**.
+
+ 6. In box sizing if you use **box-sizing: content-box;** and height, width, padding and border and it is depend on the **padding, border, height and width**.
+
+
+
+
+
+
+
 
 
 

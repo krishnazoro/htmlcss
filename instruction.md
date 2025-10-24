@@ -24,3 +24,5 @@
 
 13. If you enter a word or symbol cntrl + space for choose a tag related that.
 
+14. To highlight the sentence or word in Readme.md do this **bold me**. 
+
